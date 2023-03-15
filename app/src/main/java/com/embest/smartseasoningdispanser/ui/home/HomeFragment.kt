@@ -32,6 +32,7 @@ class HomeFragment : Fragment() {
         homeViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
+        binding.button2.text = "apple"
         return root
     }
 
