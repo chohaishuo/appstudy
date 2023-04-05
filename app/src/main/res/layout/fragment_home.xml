@@ -56,13 +56,14 @@
         android:orientation="horizontal"
         android:gravity="center">
         <Button
+            android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="골격근량 증가"/>
         <Button
+            android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="체지방량 감소"/>
     </LinearLayout>
 </LinearLayout>
-
